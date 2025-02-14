@@ -1,0 +1,3 @@
+## React Native FlatList Performance Optimization
+
+This repository demonstrates a common performance issue in React Native's FlatList component when handling large datasets and complex item rendering. The `FlatListBug.js` file shows the problem, with slow scrolling and potential crashes due to inefficient rendering. The `FlatListSolution.js` file provides an optimized solution using techniques like `useMemo`, `React.memo`, and potentially `VirtualizedList`. This example highlights the importance of optimizing rendering in FlatList to maintain a smooth user experience.
